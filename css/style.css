@@ -340,5 +340,9 @@ top:27px;
     margin: 0 0 0px;
 }
 }	
-	
+@media (max-width: 585px) {
+    .reviews__item {
+        width: 100%;
+    }
+}	
 	
