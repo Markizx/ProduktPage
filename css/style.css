@@ -60,8 +60,17 @@ justify-content: space-between;
     margin: 0 0 32px;
     font-weight: 400;
 }
+.title30 {
+    font-size: 30px;
+    color: #445161;
+    margin: 0 0 32px;
+    font-weight: 400;
+}
 .text-center {
     text-align: center;
+}
+.container-footer h4{
+	color:#fff;
 }
 .col50{
 	width: 50%;
@@ -107,6 +116,7 @@ h3{
 	font-size:30px;
 	text-align: center;
 }
+                                             /*Produkt pluses*/
 .produkt__pluses li{
 	font-size: 20px;
 	margin: 0 0 15px;
@@ -127,6 +137,7 @@ background-size: contain;
 .about__produkt{
 	font-size:16px;
 }
+                                                  /*Screenshots*/
 .screenshots li{
 	font-size: 20px;
 	margin: 0 0 15px;
@@ -149,6 +160,7 @@ background-size: contain;
 	height		: 0;
 	clear		: both;
 }
+                                           /*Rewievs*/
 .reviews .container {
 	flex-wrap: wrap;
 	padding-bottom: 28px;
@@ -217,6 +229,7 @@ top:27px;
 	top:50%;
 	transform:translate(-50%,-50%);
 }
+                                                          /*Prices */
 .prices__wrapper {
     align-items: flex-end;
     justify-content: center;
@@ -252,6 +265,7 @@ top:27px;
     font-size: 14px;
     margin: 0 0 10px;
 	padding-left:20px;
+	margin-top:20px;
 }
 .prices__item-list li:last-child {
     margin: 0;
@@ -267,6 +281,10 @@ top:27px;
     background-color: #fff;
     font-weight: 700;
 }
+                                                   /*Footer */
+.your message:{
+	height: 100px;
+}	
 @media (max-width: 768px) {
     
     .product__info {
