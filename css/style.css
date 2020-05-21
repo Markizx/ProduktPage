@@ -282,6 +282,9 @@ top:27px;
     font-weight: 700;
 }
                                                    /*Contacts */
+.contacts-flex{
+	display:flex;
+}
 .links{
 	margin-left: 78px;
 }
@@ -338,6 +341,7 @@ top:27px;
     }
     .product__image {
         max-width: 100%;
+		max-height:50%;
     }
 	.reviews__item {
     width: calc(50% - 8px);
@@ -369,13 +373,86 @@ top:27px;
     min-height: 30px;
     margin-left: 15px;
 }
+.contacts-flex{
+	display:list-item;
+}
+.links{
+	margin-left: 40%;
+}
+
+.form{
+	margin-left: 15%;
+}
+.icons {
+	padding-top:30px;
+	margin-left:-5%;
+}
+.input-button {
+    text-align: center;
+    margin-left: -10%;
+}
 }
 @media (max-width: 640px) {
 	/*normas*/
+	.contacts-flex{
+	display:list-item;
+}
+.links{
+	margin-left: 40%;
+}
+
+.form{
+	margin-left: 15%;
+}
+.icons {
+	padding-top:30px;
+	margin-left:-5%;
+}
+.input-button {
+    text-align: center;
+    margin-left: -10%;
+}
 }	
+@media (max-width: 585px) {
+    .flex {
+    display:list-item;
+}
+	.reviews__item {
+        width: 100%;
+    }
+	.contacts-flex{
+	display:list-item;
+}
+.links{
+	margin-left: 30%;
+}
+
+.form{
+	margin-left: 0%;
+}
+.icons {
+	padding-top:30px;
+	margin-left:-5%;
+}
+.input-button {
+    text-align: center;
+    margin-left: -5%;
+}
+.prices__item {
+    max-width: 100%;
+    flex-grow:1;
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid #445162;
+    background-color: #445162;
+}
+}
 @media (max-width: 460px) {
 	section {
     padding: 0px;
+}
+.flex {
+    display:list-item;
 }
 .produkt__screenshots img {
     margin: 0px;
@@ -402,10 +479,32 @@ top:27px;
   
     margin: 0 0 0px;
 }
+.prices__item {
+    max-width: 100%;
+    flex-grow: 1;
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid #445162;
+    background-color: #445162;
+}
+.contacts-flex{
+	display:list-item;
+}
+.links{
+	margin-left: 30%;
+}
+
+.form{
+	margin-left: 0%;
+}
+.icons {
+	padding-top:30px;
+	margin-left:-5%;
+}
+.input-button {
+    text-align: center;
+    margin-left: -5%;
+}
 }	
-@media (max-width: 585px) {
-    .reviews__item {
-        width: 100%;
-    }
-}	
+	
 	
