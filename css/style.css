@@ -263,7 +263,7 @@ top:27px;
 .prices__item-list li{
     color: #fff;
     font-size: 14px;
-    margin: 0 0 10px;
+    margin: 0 0 22px;
 	padding-left:20px;
 	margin-top:20px;
 }
@@ -281,9 +281,54 @@ top:27px;
     background-color: #fff;
     font-weight: 700;
 }
-                                                   /*Footer */
-.your message:{
-	height: 100px;
+                                                   /*Contacts */
+.links{
+	margin-left: 78px;
+}
+
+.form{
+	margin-left:25%;
+}
+.form textarea{
+	    height: 170px;
+		width: 500px;
+		border-radius: 4px;
+}
+.form input{
+	padding:0 0 10px ;
+	border-radius: 4px;
+	vertical-align: middle;
+}
+.form p {
+	padding-bottom:22px;
+}
+.input-button{
+	text-align:center;
+}
+.send-button {
+    color: #445161;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    padding: 11px 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    font-weight: 700;
+}
+.contacts li{
+	padding: 0 0 10px;
+	
+}
+.contacts li img {
+	padding-left:5px;	
+}
+.icons {
+	padding-top:30px;
+}
+.copyright{
+	height:23px;
+	text-align:center;
+	font-size:16px;
 }	
 @media (max-width: 768px) {
     
